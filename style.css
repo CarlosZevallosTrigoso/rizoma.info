@@ -151,6 +151,7 @@ a{color:var(--ink); text-decoration:none}
 /* Clases de utilidad para inyectar en Markdown (AHORA SON GLOBALES) */
 .txt-rojo { color: #d32f2f; }
 .txt-azul { color: #1976d2; }
+.txt-verde { color: #5c9e00; }
 .txt-grande { font-size: 1.3em; font-weight: 600; }
 .txt-pequeno { font-size: 0.85em; color: var(--ink-dim); }
 .destacado { background: #fff9c4; padding: 0 4px; }
