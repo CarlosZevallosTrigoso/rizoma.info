@@ -10,6 +10,8 @@
 * **Plataforma:** Vía Google Meet[cite: 2].
 * **Costo:** S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)[cite: 2].
 
+Para proceder con la inscripción solo debes mandar un correo a info@rizoma.pe o un dm a @rizomape vía Instagram
+
 ---
 
 ### Sobre Instrumentos de Navegación (IdN)
