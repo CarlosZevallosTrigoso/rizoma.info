@@ -6,7 +6,7 @@ Vía Google Meet
 
 **Costo:** S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)
 
-<span class="txt-pequeno; txt-rojo">Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)</span>.
+<span class="txt-pequeno; txt-azul">Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)</span>.
 
 Instrumentos de Navegación (IdN) es una serie de cursos cortos donde abordamos conceptos fundamentales de la historia de las ideas en articulación con experiencias, procesos y productos culturales del arte contemporáneo. Son sesiones online, vía Google Meet, dirigidas a cualquier persona interesada en esa intersección entre teoría y producción cultural contemporánea.
 
