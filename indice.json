@@ -1,0 +1,25 @@
+{
+  "info": {
+    "titulo": "Info",
+    "archivo": "info.md"
+  },
+  "cursos": [
+    {
+      "slug": "taller-fotografia",
+      "titulo": "Taller de Fotografía",
+      "archivo": "cursos/taller-fotografia.md"
+    },
+    {
+      "slug": "semiotica-visual",
+      "titulo": "Semiótica en las Artes Visuales",
+      "archivo": "cursos/semiotica-visual.md"
+    }
+  ],
+  "pasados": [
+    {
+      "slug": "curso-2025-1",
+      "titulo": "Producción Cultural — 2025-1",
+      "archivo": "pasados/curso-2025-1.md"
+    }
+  ]
+}
