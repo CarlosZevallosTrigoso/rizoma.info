@@ -8,7 +8,7 @@ Vía Google Meet
 
 <span class="txt-pequeno; txt-verde">Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)</span>.
 
-En esta cuarta edición de **Instrumentos de Navegación", abordaremos los conceptos: **memoria, archivo y curaduría**. Cada término se presenta y analiza desde un enfoque conceptual-genealógico y a partir de casos relacionados con el mundo del arte (proyectos y sus autorxs).
+En esta cuarta edición de **Instrumentos de Navegación**, abordaremos los conceptos: **memoria, archivo y curaduría**. Cada término se presenta y analiza desde un enfoque conceptual-genealógico y a partir de casos relacionados con el mundo del arte (proyectos y sus autorxs).
 
 Abordaremos la memoria como fenómeno social que involucra las agencias individuales y colectivas relacionadas con lo recordado; su relevancia para la emergencia de instituciones sociales y las tensiones que esto conlleva; y las tendencias en torno a su definición y uso, principalmente en el mundo del arte (y su relación con el llamado "memory boom").
 
