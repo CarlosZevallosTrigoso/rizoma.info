@@ -1,6 +1,5 @@
 # IdN #4 / Memoria, archivo y curaduría [Set2026]
 
-Memoria, archivo y curaduría
 
 **Fechas:** jueves 10, 17 y 24 de septiembre  
 **Horario:** 7:00 a 10:00pm  
