@@ -8,13 +8,13 @@ Vía Google Meet
 
 <span class="txt-pequeno; txt-verde">Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)</span>.
 
-Instrumentos de Navegación (IdN) es una serie de cursos cortos donde abordamos conceptos fundamentales de la historia de las ideas en articulación con experiencias, procesos y productos culturales del arte contemporáneo. Son sesiones online, vía Google Meet, dirigidas a cualquier persona interesada en esa intersección entre teoría y producción cultural contemporánea.
+**Instrumentos de Navegación (IdN)** es una serie de cursos cortos donde abordamos conceptos fundamentales de la historia de las ideas en articulación con experiencias, procesos y productos culturales del arte contemporáneo. Son sesiones online, vía Google Meet, dirigidas a cualquier persona interesada en esa intersección entre teoría y producción cultural contemporánea.
 
 Cada curso consta de tres sesiones de tres horas (una por concepto), los jueves de 7:00 p.m. a 10:00 p.m., con un receso de 15 minutos. Todas las sesiones siguen una estructura similar: primero se presentan los conceptos, autorxs, definiciones y enfoques; en la última hora, revisamos casos de estudio específicos relacionados con el concepto abordado.
 
 En las tres ediciones anteriores, desde el 2024, hemos abordado los conceptos: cuerpo, colonialidad, crisis, visualidad, violencia, fascismo, poder, tecnología e inteligencia artificial.
 
-En esta cuarta edición, los conceptos serán memoria, archivo y curaduría. Cada término se presenta y analiza desde un enfoque conceptual-genealógico y a partir de casos relacionados con el mundo del arte (proyectos y sus autorxs).
+En esta cuarta edición, los conceptos serán: **memoria, archivo y curaduría**. Cada término se presenta y analiza desde un enfoque conceptual-genealógico y a partir de casos relacionados con el mundo del arte (proyectos y sus autorxs).
 
 Abordaremos la memoria como fenómeno social que involucra las agencias individuales y colectivas relacionadas con lo recordado; su relevancia para la emergencia de instituciones sociales y las tensiones que esto conlleva; y las tendencias en torno a su definición y uso, principalmente en el mundo del arte (y su relación con el llamado "memory boom").
 
