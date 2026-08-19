@@ -2,11 +2,11 @@
 
 Memoria, archivo y curaduría
 
-Fechas: jueves 10, 17 y 24 de septiembre
-Horario: 7:00 a 10:00pm
+**Fechas:** jueves 10, 17 y 24 de septiembre
+**Horario:** 7:00 a 10:00pm
 Vía Google Meet
 
-Costo: S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)
+**Costo:** S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)
 
 Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)
 
