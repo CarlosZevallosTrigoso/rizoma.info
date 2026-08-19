@@ -1,9 +1,8 @@
 # IdN #4 / Memoria, archivo y curaduría [Set2026]
 <br>
 <br>  
-
-**Fechas:** jueves 10, 17 y 24 de septiembre  
-**Horario:** 7:00 a 10:00pm  
+**Fechas:** jueves 10, 17 y 24 de septiembre<br>
+**Horario:** 7:00 a 10:00pm<br>
 Vía Google Meet
 
 **Costo:** S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)
