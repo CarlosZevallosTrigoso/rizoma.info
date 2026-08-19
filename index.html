@@ -114,11 +114,8 @@
   #content{width:100%; max-width:var(--content-max)}
 
   @media (min-width:761px){
-    /* corre la columna ~30% del ancho disponible a la derecha del sidebar.
-       va en el padding del contenedor, no en margin del hijo: así el
-       width:100% de #content se recalcula ya descontando ese espacio,
-       sin desbordar horizontalmente. */
-    #content-wrap{padding-left:30%}
+    /* Fija el margen izquierdo para acercar el texto al menú */
+    #content-wrap{padding-left: 64px;}
   }
 
   #content h1{font-size:22px; margin:0 0 var(--sp-2); letter-spacing:-.01em; text-wrap:balance}
