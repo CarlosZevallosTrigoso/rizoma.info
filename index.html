@@ -25,7 +25,9 @@
     --line-strong:#0a0a0a;
     --mono:"Fira Code", ui-monospace, "SF Mono", Consolas, monospace;
     --sidebar-w:405px;
-    --content-max:680px;
+    --content-max:66ch;
+    /* escala de espaciado — ritmo vertical consistente en #content */
+    --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-6:24px; --sp-8:32px;
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%}
@@ -108,13 +110,14 @@
   #content-wrap{padding:48px 32px 80px; display:flex; justify-content:center}
   #content{width:100%; max-width:var(--content-max)}
 
-  #content h1{font-size:22px; margin:0 0 6px; letter-spacing:-.01em}
-  #content h2{font-size:17px; margin:36px 0 10px; padding-top:12px; border-top:1px solid var(--line)}
-  #content h3{font-size:14px; margin:24px 0 8px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-dim)}
-  #content p{margin:0 0 14px}
-  #content ul,#content ol{margin:0 0 14px; padding-left:22px}
-  #content li{margin:4px 0}
-  #content a{text-decoration:underline; text-underline-offset:2px}
+  #content h1{font-size:22px; margin:0 0 var(--sp-2); letter-spacing:-.01em; text-wrap:balance}
+  #content h2{font-size:17px; margin:var(--sp-8) 0 var(--sp-3); padding-top:var(--sp-3); border-top:1px solid var(--line); text-wrap:balance}
+  #content h3{font-size:14px; margin:var(--sp-6) 0 var(--sp-2); text-transform:uppercase; letter-spacing:.06em; color:var(--ink-dim); text-wrap:balance}
+  #content p{margin:0 0 var(--sp-4); text-wrap:pretty; hyphens:auto; -webkit-hyphens:auto}
+  #content ul,#content ol{margin:0 0 var(--sp-4); padding-left:22px}
+  #content li{margin:4px 0; text-wrap:pretty; hyphens:auto; -webkit-hyphens:auto}
+  #content ul li::marker,#content ol li::marker{color:var(--ink-dim)}
+  #content a{text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px}
   #content a:hover{color:var(--ink-dim)}
   #content img{max-width:100%; height:auto; display:block; margin:18px 0; border:1px solid var(--line)}
   #content code{
@@ -122,15 +125,15 @@
   }
   #content pre{
     background:#0a0a0a; color:#f2f2f2; padding:16px; overflow-x:auto;
-    border-radius:2px; margin:0 0 16px; font-size:12.5px; line-height:1.55;
+    border-radius:2px; margin:0 0 var(--sp-4); font-size:12.5px; line-height:1.55;
   }
   #content pre code{background:none; padding:0; color:inherit}
   #content blockquote{
-    margin:0 0 16px; padding:2px 0 2px 16px; border-left:2px solid var(--ink);
-    color:var(--ink-dim);
+    margin:0 0 var(--sp-4); padding:2px 0 2px 16px; border-left:2px solid var(--ink);
+    color:var(--ink-dim); text-wrap:pretty; hyphens:auto; -webkit-hyphens:auto;
   }
-  #content hr{border:none; border-top:1px solid var(--line); margin:32px 0}
-  #content table{border-collapse:collapse; width:100%; margin:0 0 16px; font-size:13px}
+  #content hr{border:none; border-top:1px solid var(--line); margin:var(--sp-8) 0}
+  #content table{border-collapse:collapse; width:100%; margin:0 0 var(--sp-4); font-size:13px}
   #content th,#content td{border:1px solid var(--line); padding:6px 10px; text-align:left}
   #content th{background:#f7f7f7}
 
