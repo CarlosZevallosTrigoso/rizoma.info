@@ -24,7 +24,7 @@
     --line:#e4e4e4;
     --line-strong:#0a0a0a;
     --mono:"Fira Code", ui-monospace, "SF Mono", Consolas, monospace;
-    --sidebar-w:270px;
+    --sidebar-w:405px;
     --content-max:680px;
   }
   *{box-sizing:border-box}
@@ -102,7 +102,6 @@
     background:none; border:1px solid var(--line); border-radius:2px; cursor:pointer;
     padding:6px 9px; font-family:var(--mono); font-size:14px; color:var(--ink); line-height:1;
   }
-  #scrim{display:none; position:fixed; inset:0; background:#0a0a0a55; z-index:15}
 
   /* ---------- contenido ---------- */
   #main{flex:1; min-width:0}
@@ -141,13 +140,21 @@
 
   @media (max-width:760px){
     #app{flex-direction:column}
+
+    #mobilebar{display:flex; order:1}
+
+    /* acordeón: el sidebar vive en el flujo normal, debajo de la barra,
+       y empuja el contenido hacia abajo al abrirse — no es un overlay. */
     #sidebar{
-      position:fixed; top:0; left:0; height:100vh; z-index:20; background:var(--bg);
-      transform:translateX(-100%); transition:transform .18s ease; box-shadow:0 0 0 transparent;
+      order:2; position:static; width:100%; height:auto;
+      border-right:none; border-bottom:1px solid var(--line);
+      max-height:0; overflow:hidden;
+      transition:max-height .22s ease;
     }
-    #sidebar.open{transform:translateX(0); box-shadow:2px 0 24px #0a0a0a22}
-    #mobilebar{display:flex}
-    #scrim.on{display:block}
+    #sidebar.open{max-height:75vh; overflow-y:auto}
+    #sidebar nav{flex:none; overflow-y:visible}
+
+    #main{order:3}
     #content-wrap{padding:32px 20px 64px}
   }
 </style>
@@ -156,7 +163,10 @@
   <a class="skip-link" href="#content">Saltar al contenido</a>
 
   <div id="app">
-    <div id="scrim"></div>
+    <div id="mobilebar">
+      <button id="menu-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Abrir navegación">☰</button>
+      <span class="brand">Rizoma</span>
+    </div>
 
     <aside id="sidebar" aria-label="Navegación principal">
       <div class="brand"><a href="#/">Rizoma</a></div>
@@ -180,10 +190,6 @@
     </aside>
 
     <div id="main">
-      <div id="mobilebar">
-        <button id="menu-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Abrir navegación">☰</button>
-        <span class="brand">Rizoma</span>
-      </div>
       <div id="content-wrap">
         <main id="content" tabindex="-1">
           <p class="state">Cargando…</p>
@@ -262,7 +268,6 @@ function buildSidebarModel(indice) {
   const $ = (id) => document.getElementById(id);
   const contentEl = $('content');
   const sidebarEl = $('sidebar');
-  const scrimEl = $('scrim');
   const menuToggle = $('menu-toggle');
 
   let indiceData = null;
@@ -420,18 +425,15 @@ function buildSidebarModel(indice) {
   // ---------- menú móvil ----------
   function openMobileMenu() {
     sidebarEl.classList.add('open');
-    scrimEl.classList.add('on');
     menuToggle.setAttribute('aria-expanded', 'true');
   }
   function closeMobileMenu() {
     sidebarEl.classList.remove('open');
-    scrimEl.classList.remove('on');
     menuToggle.setAttribute('aria-expanded', 'false');
   }
   menuToggle.addEventListener('click', () => {
     sidebarEl.classList.contains('open') ? closeMobileMenu() : openMobileMenu();
   });
-  scrimEl.addEventListener('click', closeMobileMenu);
 
   window.addEventListener('hashchange', router);
   init();
