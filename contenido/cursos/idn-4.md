@@ -20,7 +20,7 @@ Antes de iniciar el curso, cada inscritx recibe un enlace a una carpeta donde en
 
 Las clases se graban y quedan accesibles a lxs inscritxs hasta tres semanas después de terminado el curso. Además, lxs inscritxs tienen acceso a las grabaciones de las ediciones anteriores por el mismo tiempo y sin costo extra.
 
-El curso es impartido por [Carlos Zevallos Trigoso](https://www.instagram.com/ca.zt): antropólogo visual, docente de la Facultad de Arte y Diseño de la PUCP y Curador Independiente.  
+<span class="txt-azul"> El curso es impartido por [Carlos Zevallos Trigoso](https://www.instagram.com/ca.zt): antropólogo visual, docente de la Facultad de Arte y Diseño de la PUCP y Curador Independiente.</span>  
 
 **Instrumentos de Navegación (IdN)** es una serie de cursos cortos donde abordamos conceptos fundamentales de la historia de las ideas en articulación con experiencias, procesos y productos culturales del arte contemporáneo. Son sesiones online, vía Google Meet, dirigidas a cualquier persona interesada en esa intersección entre teoría y producción cultural contemporánea.
 
