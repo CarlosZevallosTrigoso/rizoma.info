@@ -25,7 +25,7 @@
     --line-strong:#0a0a0a;
     --mono:"Fira Code", ui-monospace, "SF Mono", Consolas, monospace;
     --sidebar-w:405px;
-    --content-max:66ch;
+    --content-max:84ch;
     /* escala de espaciado — ritmo vertical consistente en #content */
     --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-6:24px; --sp-8:32px;
   }
@@ -43,6 +43,9 @@
   }
   .skip-link:focus{left:8px; top:8px}
   :focus-visible{outline:2px solid var(--ink); outline-offset:2px}
+  /* #content se enfoca por script en cada cambio de ruta (para lectores de
+     pantalla); nunca es resultado de Tab real, así que no debe mostrar anillo. */
+  #content:focus, #content:focus-visible{outline:none}
 
   #app{display:flex; min-height:100vh}
 
@@ -107,8 +110,16 @@
 
   /* ---------- contenido ---------- */
   #main{flex:1; min-width:0}
-  #content-wrap{padding:48px 32px 80px; display:flex; justify-content:center}
+  #content-wrap{padding:48px 32px 80px; display:flex; justify-content:flex-start}
   #content{width:100%; max-width:var(--content-max)}
+
+  @media (min-width:761px){
+    /* corre la columna ~30% del ancho disponible a la derecha del sidebar.
+       va en el padding del contenedor, no en margin del hijo: así el
+       width:100% de #content se recalcula ya descontando ese espacio,
+       sin desbordar horizontalmente. */
+    #content-wrap{padding-left:30%}
+  }
 
   #content h1{font-size:22px; margin:0 0 var(--sp-2); letter-spacing:-.01em; text-wrap:balance}
   #content h2{font-size:17px; margin:var(--sp-8) 0 var(--sp-3); padding-top:var(--sp-3); border-top:1px solid var(--line); text-wrap:balance}

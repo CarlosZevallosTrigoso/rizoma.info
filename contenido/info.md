@@ -1,21 +1,22 @@
 # Rizoma
 
-Plataforma de cursos y talleres. Este texto vive en `contenido/info.md` — edítalo directamente, no hace falta tocar el HTML.
+Somos una plataforma educativa independiente que diseña, produce y gestiona actividades de aprendizaje y experimentación pedagógica. Abordamos temas de ciencias sociales, artes y humanidades en forma de cursos, laboratorios y talleres, utilizando tecnologías digitales de comunicación en línea y en tiempo real, dirigidos a un público amplio, no necesariamente iniciado en los mismos.
 
-## Cómo funciona
+Nuestro interés es formar comunidades de aprendizaje en torno a conceptos, metodologías, enfoques y autorxs, que no se centren en la certificación, sino que tengan como principal objetivo ser espacios de reflexión y socialización. Esperamos que toda persona interesada en nuestras propuestas se sientan invitadas a participar en las iniciativas.
 
-Cada entrada del menú (Info, cada curso, cada registro en Pasados) corresponde a un archivo `.md` dentro de `contenido/`. El menú de la izquierda se arma a partir de `contenido/indice.json`: para agregar un curso nuevo, agrega ahí una entrada con su `slug`, `titulo` y ruta de `archivo`, y sube el `.md` correspondiente.
+Como plataforma independiente, somos también un proyecto de gestión educativa que toma elementos de la transformación digital de la educación (por ejemplo, la tele-educación) y que, al mismo tiempo, problematiza las tendencias actuales que orientan la oferta de cursos virtuales hacia la asincronicidad total¹ o la creación de propuestas enlatadas. Por esto, en Rizoma tenemos una serie de principios que conforman nuestra filosofía de trabajo:
 
-## Imágenes
+1) Apostamos por la sincronicidad. Es decir, a pesar de que la mayoría de cursos o talleres se dictan vía internet (en plataformas tipo Zoom o Meet), las experiencias de aprendizaje son siempre en tiempo real y las sesiones generalmente no se graban².
+2) Nuestras actividades son siempre puertas de entrada a nuevos campos temáticos. Llevar un curso o taller con nosotros implica ingresar a una comunidad de aprendizaje que quiere perdurar.
 
-Las imágenes van en `assets/` y se referencian desde el Markdown con ruta relativa a la raíz del sitio, así:
+Las actividades de Rizoma tienen un límite razonable de inscritxs para garantizar siempre la formación de grupos manejables.
 
-![Ejemplo de imagen](assets/ejemplo.svg)
+Rizoma es un proyecto creado y gestionado por Melissa Navarro Reyes y Carlos Zevallos Trigoso, ambos somos profesionales de la comunicación e investigación académica con experiencia en docencia a nivel universitario.
 
-## Formato soportado
-
-Encabezados, listas, **negrita**, *cursiva*, enlaces, citas, tablas, bloques de código y líneas horizontales — el estándar de Markdown, vía [marked.js](https://marked.js.org/).
+Ahora mismo estamos ofreciendo el curso: [NOMBRE DEL CURSO VIGENTE Y ENLACE]
 
 ---
 
-Reemplaza este texto por la descripción real de la plataforma cuando estés listo.
+¹ Contenidos educativos que el estudiante puede ver en cualquier momento, sin que existan conexiones en tiempo real con el docente.
+
+² [nota pendiente]
