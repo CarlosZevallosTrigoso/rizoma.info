@@ -13,7 +13,7 @@ Las actividades de Rizoma tienen un límite razonable de inscritxs para garantiz
 
 Rizoma es un proyecto creado y gestionado por Melissa Navarro Reyes y Carlos Zevallos Trigoso, ambos somos profesionales de la comunicación e investigación académica con experiencia en docencia a nivel universitario.
 
-Ahora mismo estamos ofreciendo el curso: [NOMBRE DEL CURSO VIGENTE Y ENLACE]
+Ahora mismo estamos ofreciendo el curso: **[IdN #4 / Memoria, archivo y curaduría [Set2026]](#/cursos/idn-4-memoria)**
 
 ---
 
