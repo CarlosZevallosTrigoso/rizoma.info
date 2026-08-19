@@ -1,9 +1,5 @@
 # IdN #4 / Memoria, archivo y curaduría [Set2026]
 
-Curso/Seminario
-Instrumentos de navegación: conceptos para el arte contemporáneo 
-(Cuarta edición - Septiembre 2026)
-
 Memoria, archivo y curaduría
 
 Fechas: jueves 10, 17 y 24 de septiembre
@@ -11,6 +7,8 @@ Horario: 7:00 a 10:00pm
 Vía Google Meet
 
 Costo: S/. 180 (pagando antes del 3 de septiembre, luego S/. 200)
+
+Para inscribirse solo es necesario enviar un correo a info@rizoma.pe o mandar un dm a nuestra cuenta de IG (@rizoma.pe)
 
 Instrumentos de Navegación (IdN) es una serie de cursos cortos donde abordamos conceptos fundamentales de la historia de las ideas en articulación con experiencias, procesos y productos culturales del arte contemporáneo. Son sesiones online, vía Google Meet, dirigidas a cualquier persona interesada en esa intersección entre teoría y producción cultural contemporánea.
 
