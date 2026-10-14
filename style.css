@@ -175,3 +175,30 @@ a{color:var(--ink); text-decoration:none}
   #main{order:3}
   #content-wrap{padding:32px 20px 64px}
 }
+
+/* Tabla de cronograma (usada en las páginas de talleres) */
+#content table.cronograma{margin:var(--sp-2) 0 var(--sp-6); font-size:13px}
+#content .cronograma th,#content .cronograma td{border:none; border-bottom:1px solid var(--line); padding:12px 10px; vertical-align:top}
+#content .cronograma thead th{
+  background:none; border-bottom:1px solid var(--line-strong);
+  font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-dim);
+}
+#content .cronograma thead th:last-child,#content .cronograma .pp{text-align:right}
+#content .cronograma .num{font-size:18px; font-weight:700; line-height:1.15; width:3ch; padding-left:0}
+#content .cronograma .fecha{font-weight:700; white-space:nowrap}
+#content .cronograma .pp{color:var(--ink-dim); white-space:nowrap; padding-right:0}
+#content .cronograma tbody tr:hover{background:#fafafa}
+
+@media (max-width:760px){
+  #content .cronograma thead{display:none}
+  #content .cronograma,#content .cronograma tbody{display:block}
+  #content .cronograma tr{
+    display:grid; grid-template-columns:3ch 1fr; column-gap:12px; row-gap:2px;
+    padding:14px 0; border-bottom:1px solid var(--line);
+  }
+  #content .cronograma td{display:block; border:none; padding:0}
+  #content .cronograma .num{grid-row:1 / span 3}
+  #content .cronograma .fecha{white-space:normal}
+  #content .cronograma .pp{text-align:left}
+  #content .cronograma tbody tr:hover{background:none}
+}

@@ -24,11 +24,16 @@ Para este taller usaremos, preferentemente, la siguiente edición del libro, pub
 
 **Cronograma**
 
-**Martes 3 de noviembre de 2026:** Capítulo I (pp. 11-54)  
-**Martes 1 de diciembre de 2026:** Capítulo II (pp. 57-142)  
-**Martes 5 de enero de 2027:** Capítulo III, secciones 1 a 8 (pp. 145-228)  
-**Martes 2 de febrero de 2027:** Capítulo III, secciones 9 a 11, y capítulo IV, secciones 1 a 3 (pp. 229-331)  
-**Martes 2 de marzo de 2027:** Capítulo IV, secciones 4 y 5, y apéndice (pp. 332-413)
+<table class="cronograma">
+<thead><tr><th>#</th><th>Fecha</th><th>Lectura</th><th>Páginas</th></tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fecha">Martes 3 de noviembre de 2026</td><td class="lectura">Capítulo I</td><td class="pp">pp. 11–54</td></tr>
+<tr><td class="num">2</td><td class="fecha">Martes 1 de diciembre de 2026</td><td class="lectura">Capítulo II</td><td class="pp">pp. 57–142</td></tr>
+<tr><td class="num">3</td><td class="fecha">Martes 5 de enero de 2027</td><td class="lectura">Capítulo III, secciones 1 a 8</td><td class="pp">pp. 145–228</td></tr>
+<tr><td class="num">4</td><td class="fecha">Martes 2 de febrero de 2027</td><td class="lectura">Capítulo III, secciones 9 a 11, y capítulo IV, secciones 1 a 3</td><td class="pp">pp. 229–331</td></tr>
+<tr><td class="num">5</td><td class="fecha">Martes 2 de marzo de 2027</td><td class="lectura">Capítulo IV, secciones 4 y 5, y apéndice</td><td class="pp">pp. 332–413</td></tr>
+</tbody>
+</table>
 
 Cada sesión tiene un costo de S/ 40, que puede abonarse vía Plin o transferencia interbancaria a más tardar una semana antes de cada sesión. Para más información, escribir al correo info@rizoma.pe o enviar un DM a nuestra cuenta de Instagram ([@rizoma.pe](https://www.instagram.com/rizoma.pe/)).
 
