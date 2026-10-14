@@ -5,10 +5,16 @@
   },
   "cursos": [
     {
+      "slug": "cye-1-antiedipo",
+      "titulo": "Capitalismo y esquizofrenia #1 / El Anti-Edipo [Nov2026]",
+      "archivo": "cursos/cye-1-antiedipo.md"
+    }
+  ],
+  "pasados": [
+    {
       "slug": "idn-4-memoria",
       "titulo": "IdN #4 / Memoria, archivo y curaduría [Set2026]",
       "archivo": "cursos/idn-4.md"
     }
-  ],
-  "pasados": []
+  ]
 }
