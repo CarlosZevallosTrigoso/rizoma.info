@@ -25,10 +25,10 @@ Para este taller usaremos, preferentemente, la edición del libro publicada por 
 <table class="cronograma">
 <thead><tr><th>#</th><th>Fecha</th><th>Lectura</th><th>Páginas</th></tr></thead>
 <tbody>
-<tr><td class="num">1</td><td class="fecha">Martes 3 de noviembre de 2026</td><td class="lectura">Capítulo I</td><td class="pp">pp. 11–54</td></tr>
-<tr><td class="num">2</td><td class="fecha">Martes 1 de diciembre de 2026</td><td class="lectura">Capítulo II</td><td class="pp">pp. 57–142</td></tr>
-<tr><td class="num">3</td><td class="fecha">Martes 5 de enero de 2027</td><td class="lectura">Capítulo III, secciones 1 a 8</td><td class="pp">pp. 145–228</td></tr>
-<tr><td class="num">4</td><td class="fecha">Martes 2 de febrero de 2027</td><td class="lectura">Capítulo III, secciones 9 a 11, y capítulo IV, secciones 1 a 3</td><td class="pp">pp. 229–331</td></tr>
+<tr><td class="num">1</td><td class="fecha">Martes 3 de noviembre de 2026</td><td class="lectura">Capítulo I</td><td class="pp">pp. 8–54</td></tr>
+<tr><td class="num">2</td><td class="fecha">Martes 1 de diciembre de 2026</td><td class="lectura">Capítulo II</td><td class="pp">pp. 55–142</td></tr>
+<tr><td class="num">3</td><td class="fecha">Martes 5 de enero de 2027</td><td class="lectura">Capítulo III, secciones 1 a 8</td><td class="pp">pp. 143–229</td></tr>
+<tr><td class="num">4</td><td class="fecha">Martes 2 de febrero de 2027</td><td class="lectura">Capítulo III, secciones 9 a 11, y capítulo IV, secciones 1 a 3</td><td class="pp">pp. 229–332</td></tr>
 <tr><td class="num">5</td><td class="fecha">Martes 2 de marzo de 2027</td><td class="lectura">Capítulo IV, secciones 4 y 5, y apéndice</td><td class="pp">pp. 332–413</td></tr>
 </tbody>
 </table>
