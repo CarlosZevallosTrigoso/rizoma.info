@@ -16,7 +16,10 @@
     </div>
 
     <aside id="sidebar" aria-label="Navegación principal">
-      <div class="brand"><a href="#/">Rizoma</a></div>
+      <div class="brand">
+        <a href="#/">Rizoma</a>
+        <button type="button" id="sidebar-toggle" aria-controls="nav" aria-expanded="true" aria-label="Ocultar menú" title="Ocultar menú">‹</button>
+      </div>
       <nav id="nav">
         <div class="nav-info">
           <a href="#/info" id="link-info">Info</a>
@@ -268,6 +271,25 @@ function buildSidebarModel(indice) {
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
     }[c]));
   }
+
+  // ---------- sidebar colapsable (solo escritorio) ----------
+  const appEl = $('app');
+  const sidebarToggle = $('sidebar-toggle');
+  function setSidebarCollapsed(collapsed) {
+    appEl.classList.toggle('sidebar-collapsed', collapsed);
+    const label = collapsed ? 'Mostrar menú' : 'Ocultar menú';
+    sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
+    sidebarToggle.setAttribute('aria-label', label);
+    sidebarToggle.title = label;
+    sidebarToggle.textContent = collapsed ? '›' : '‹';
+    try { localStorage.setItem('rizoma.sidebarCollapsed', collapsed ? '1' : '0'); } catch (e) { /* sin almacenamiento */ }
+  }
+  let savedCollapsed = false;
+  try { savedCollapsed = localStorage.getItem('rizoma.sidebarCollapsed') === '1'; } catch (e) { /* sin almacenamiento */ }
+  setSidebarCollapsed(savedCollapsed);
+  sidebarToggle.addEventListener('click', () => {
+    setSidebarCollapsed(!appEl.classList.contains('sidebar-collapsed'));
+  });
 
   // ---------- menú móvil ----------
   function openMobileMenu() {

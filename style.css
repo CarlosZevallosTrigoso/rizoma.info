@@ -49,7 +49,13 @@ a{color:var(--ink); text-decoration:none}
 }
 #sidebar .brand{
   padding:20px 20px 16px; border-bottom:1px solid var(--line);
+  display:flex; align-items:center; justify-content:space-between; gap:8px;
 }
+#sidebar-toggle{
+  background:none; border:1px solid var(--line); border-radius:2px; cursor:pointer;
+  font-family:var(--mono); font-size:14px; line-height:1; padding:3px 8px; color:var(--ink-dim);
+}
+#sidebar-toggle:hover{color:var(--ink); border-color:var(--ink)}
 #sidebar .brand a{
   font-size:15px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
 }
@@ -211,3 +217,15 @@ a{color:var(--ink); text-decoration:none}
 /* bloque final: info complementaria separada del cuerpo del texto */
 #content .cierre{margin-top:var(--sp-8); padding:var(--sp-6) 0 var(--sp-8); border-top:1px solid var(--line)}
 #content .cierre > :last-child{margin-bottom:0}
+
+/* ---------- sidebar colapsable (solo escritorio) ---------- */
+@media (min-width:761px){
+  #sidebar{transition:width .2s ease}
+  #app.sidebar-collapsed #sidebar{width:52px}
+  #app.sidebar-collapsed #sidebar nav,
+  #app.sidebar-collapsed #sidebar .brand a{display:none}
+  #app.sidebar-collapsed #sidebar .brand{justify-content:center; padding-left:0; padding-right:0}
+}
+@media (max-width:760px){
+  #sidebar-toggle{display:none}
+}
