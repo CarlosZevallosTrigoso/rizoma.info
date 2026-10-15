@@ -205,4 +205,9 @@ a{color:var(--ink); text-decoration:none}
 }
 
 /* Aviso destacado dentro de una página (p. ej., «no se graban las sesiones») */
-#content .aviso{margin:var(--sp-8) 0; padding:10px 14px; border-left:2px solid var(--ink); background:#fafafa}
+#content .aviso{margin:0 0 var(--sp-4); padding:2px 0 2px 14px; border-left:2px solid var(--ink)}
+/* nota que acompaña al párrafo anterior (p. ej., el asterisco del costo) */
+#content p.nota{margin-top:calc(-1 * var(--sp-2))}
+/* bloque final: info complementaria separada del cuerpo del texto */
+#content .cierre{margin-top:var(--sp-8); padding:var(--sp-6) 0 var(--sp-8); border-top:1px solid var(--line)}
+#content .cierre > :last-child{margin-bottom:0}
