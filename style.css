@@ -202,3 +202,6 @@ a{color:var(--ink); text-decoration:none}
   #content .cronograma .pp{text-align:left}
   #content .cronograma tbody tr:hover{background:none}
 }
+
+/* Aviso destacado dentro de una página (p. ej., «no se graban las sesiones») */
+#content .aviso{margin:var(--sp-8) 0; padding:10px 14px; border-left:2px solid var(--ink); background:#fafafa}

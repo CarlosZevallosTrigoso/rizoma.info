@@ -18,7 +18,7 @@ Este taller de lectura propone ser un espacio semiestructurado para leer colecti
 
 Para participar en el taller **no es necesario tener ninguna formación previa** en los temas que aborda el libro. Nos importa mucho, más bien, la diversidad de miradas y de formas de abordar los problemas y conceptos que el texto plantea. Lo que sí es clave es contar con **el compromiso, la disposición y la curiosidad suficientes**, además del deseo de conformar una comunidad (temporalmente determinada) de conocimiento y encuentro.
 
-Para este taller usaremos, preferentemente, la edición del libro publicada por Paidós en 1985¹; las páginas indicadas en el cronograma corresponden a esta edición.
+Para este taller usaremos, preferentemente, la edición del libro publicada por Paidós en 1985; las páginas indicadas en el cronograma corresponden a esta edición.
 
 **Cronograma**
 
@@ -33,12 +33,10 @@ Para este taller usaremos, preferentemente, la edición del libro publicada por 
 </tbody>
 </table>
 
-Cada sesión tiene un costo de **S/ 40**, que puede abonarse vía Plin o transferencia interbancaria **a más tardar una semana antes de cada sesión**. Para más información, escribir al correo info@rizoma.pe o enviar un DM a nuestra cuenta de Instagram ([@rizoma.pe](https://www.instagram.com/rizoma.pe/)).
+Cada sesión tiene un costo de **S/ 40**\*, que puede abonarse vía Plin o transferencia interbancaria **a más tardar una semana antes de cada sesión**. Para más información, escribir al correo info@rizoma.pe o enviar un DM a nuestra cuenta de Instagram ([@rizoma.pe](https://www.instagram.com/rizoma.pe/)).
 
 <span class="txt-pequeno">*Si el monto de S/ 40 resulta restrictivo para ti, puedes escribirnos para conversar.</span>
 
+<p class="aviso"><strong>Ojo:</strong> por la naturaleza del espacio, las sesiones no se grabarán.</p>
+
 <span class="txt-azul">El taller de lectura será coordinado por [Carlos Zevallos Trigoso](https://www.instagram.com/ca.zt) (@ca.zt), antropólogo visual y curador independiente de arte contemporáneo en Lima.</span>
-
----
-
-<span class="txt-pequeno">¹ Deleuze, G., y Guattari, F. (1985). *El Anti Edipo: Capitalismo y esquizofrenia* (F. Monge, Trad.). Paidós. (Obra original publicada en 1972)</span>
