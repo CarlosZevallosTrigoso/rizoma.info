@@ -155,7 +155,6 @@ a{color:var(--ink); text-decoration:none}
 .txt-grande { font-size: 1.3em; font-weight: 600; }
 .txt-pequeno { font-size: 0.85em; color: var(--ink-dim); }
 .destacado { background: #fff9c4; padding: 0 4px; }
-.destacado-verde { background: #e3f2d0; padding: 1px 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 
 @media (max-width:760px){
   #app{flex-direction:column}
